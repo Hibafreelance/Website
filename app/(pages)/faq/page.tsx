@@ -37,7 +37,7 @@ const FaqPage = () => {
 
   const [openIndex, setOpenIndex] = useState(null);
 
-  const handleAccordionToggle = (index) => {
+  const handleAccordionToggle = (index: any) => {
     setOpenIndex((prevIndex) => (prevIndex === index ? null : index));
   };
 
