@@ -5,6 +5,7 @@ import { Poppins } from 'next/font/google'
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://hiba.company'),
   title: {
     default: 'Learn to Freelance — for free | HibaFreelance',
     template: '%s - HibaFreelance'
