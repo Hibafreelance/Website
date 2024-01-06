@@ -1,3 +1,7 @@
+import type { Metadata } from 'next'
+export const metadata: Metadata = {
+  title:'Environment'
+}
 const Environment = () => {
     return (
       <div className="bg-gray-100 p-8">

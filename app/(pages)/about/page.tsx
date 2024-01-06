@@ -1,10 +1,7 @@
-import type { Metadata } from "next";
-
+import type { Metadata } from 'next'
 export const metadata: Metadata = {
-    title: "About us | Hiba",
-    description: "How hiba (the open source platform) got from an idea to a reality."
-  };
-
+  title:'About'
+}
 const About = () => {
     return (
       <div className="bg-gray-100 p-8">

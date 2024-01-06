@@ -55,11 +55,12 @@ export default function PlayerFeatures() {
 
       <Image
         src={playImage}
-        alt="Screenshot of the course list"
+        alt="Screenshot of the discord server"
         className="w-full max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem] md:-ml-4 lg:-ml-0"
         width={1024}
         height={805}
         unoptimized
+        
       />
     </div>
     </main>

@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://hiba.company/
+
+# Sitemaps
+Sitemap: https://hiba.company/sitemap.xml

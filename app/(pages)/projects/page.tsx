@@ -1,6 +1,10 @@
-// pages/projects.tsx
+
 import React from 'react';
-import { IconBrandAdobe , IconFileTypeCss , IconShoppingCart , IconSeo , IconBrandJavascript , IconBrandShopee, IconBrandStripe,IconBrandWordpress ,IconLanguageHiragana} from '@tabler/icons-react';
+import { IconBrandAdobe , IconFileTypeCss , IconShoppingCart , IconSeo , IconBrandJavascript , IconBrandShopee, IconBrandStripe,IconBrandWordpress ,IconLanguageHiragana ,IconBrandApple ,IconCalendarClock ,IconMessage,IconMail} from '@tabler/icons-react';
+import type { Metadata } from 'next'
+export const metadata: Metadata = {
+  title:'Porjects'
+}
 
 
 const projects = [
@@ -32,6 +36,62 @@ const projects = [
     screenshot: '/projectimgs/sdsarabia.webp', 
     link: 'https://sdsarabia.com/',
   },
+  {
+    title: "Fatha'A",
+    description: "Abaya brand for women's.",
+    technologies: [<IconBrandAdobe />,<IconBrandApple />,<IconShoppingCart />,<IconSeo />], // Use icons here
+    screenshot: '/projectimgs/fatha.webp', 
+    link: 'https://fathaa-thelabel.com/en',
+  },
+  {
+    title: "SO Dental",
+    description: "Dental health clinic to schedule appointments.",
+    technologies: [<IconBrandAdobe />,<IconBrandWordpress />,<IconCalendarClock />,<IconSeo />], // Use icons here
+    screenshot: '/projectimgs/sodentaire.webp', 
+    link: 'https://santedentaireso.com/en/',
+  },
+  {
+    title: "Volcan",
+    description: "Digital market for license and software.",
+    technologies: [<IconBrandAdobe />,<IconFileTypeCss />,<IconShoppingCart />,<IconSeo />], // Use icons here
+    screenshot: '/projectimgs/volcan.webp', 
+    link: 'https://volcanstore.com/',
+  },
+  {
+    title: "Outshine",
+    description: "Store for Neon lights.",
+    technologies: [<IconBrandAdobe />,<IconFileTypeCss />,<IconShoppingCart />,<IconSeo />], // Use icons here
+    screenshot: '/projectimgs/outshine.webp', 
+    link: 'https://outshine0.com/',
+  },
+  {
+    title: "Pro Tec",
+    description: "Travel Agency that help people plan their trips.",
+    technologies: [<IconBrandWordpress />,<IconFileTypeCss />,<IconSeo />,<IconMessage />], // Use icons here
+    screenshot: '/projectimgs/protec.webp', 
+    link: 'https://protecagency.com/',
+  },
+  {
+    title: "The Mind Weapon",
+    description: "PUBG Esport team.",
+    technologies: [<IconBrandWordpress />,<IconFileTypeCss />,<IconSeo />,<IconShoppingCart />], // Use icons here
+    screenshot: '/projectimgs/tmw.webp', 
+    link: 'https://themindweapon.com/',
+  },
+  {
+    title: "Vorvil",
+    description: "Clothing brand for young people.",
+    technologies: [<IconBrandAdobe />,<IconFileTypeCss />,<IconSeo />,<IconShoppingCart />], // Use icons here
+    screenshot: '/projectimgs/vorvil.webp', 
+    link: 'https://vorvil.com/',
+  },
+  {
+    title: "NoodyWorld",
+    description: "Beauty products shop.",
+    technologies: [<IconBrandAdobe />,<IconFileTypeCss />,<IconSeo />,<IconShoppingCart />], // Use icons here
+    screenshot: '/projectimgs/noody.webp', 
+    link: 'https://noodyworld.com/',
+  },
   
   
   // Add more projects as needed
@@ -56,19 +116,20 @@ const ProjectsPage = () => {
                 </span>
               ))}
             </div>
-            <img
-              src={project.screenshot}
-              alt={project.title}
-              className="mb-4 rounded-md"
-              width='auto'
-            />
+
             <a
               href={project.link}
               target="_blank"
               rel="noopener noreferrer"
-              className="text-blue-500 hover:underline self-center"
+              className="text-center"
             >
-              Visit the website
+              <img
+              src={project.screenshot}
+              alt={project.title}
+              className="mb-4 rounded-md transition-transform transform hover:scale-105"
+              width='auto'
+            />
+            <span className="text-blue-500 hover:underline self-center">Visit the website</span>
             </a>
           </div>
         ))}

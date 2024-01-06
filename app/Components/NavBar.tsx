@@ -14,8 +14,8 @@ const NavBar = () => {
 
   return (
     <nav className="flexBetween max-container padding-container relative z-30 py-5">
-      <Link href="/" className='z-50'>
-        <Image src="/logo.png" alt="hiba-logo" width={74} height={30} />
+      <Link href="/" className='z-50' onClick={() => setIsDropdownOpen(false)}>
+        <Image src="/logo.webp" alt="hiba-logo" width={0} height={0} style={{ width: '75px', height: 'auto' }}/>
       </Link>
       <ul className="hidden h-full gap-12 lg:flex">
         {NAV_LINKS.map((link) => (
@@ -46,7 +46,7 @@ const NavBar = () => {
       {/* Burger Icon for Mobile */}
       <div className="lg:hidden cursor-pointer z-50">
         <Image
-          src="/web.png"
+          src="/web.webp"
           alt="dropdown"
           width={32}
           height={32}

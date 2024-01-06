@@ -40,10 +40,10 @@ export const NAV_LINKS = [
   export const SOCIALS = {
     title: 'Social',
     links: [
-      { src: '/socials/youtube.png', url: 'https://www.youtube.com/channel/UCE8E72Nexrqv3IAYdsCj5MQ' },
-      { src: '/socials/instagram.png', url: 'https://www.instagram.com/hibafreelance/' },
-      { src: '/socials/tiktok.png', url: 'https://www.tiktok.com/@hibafreelance' },
-      { src: '/socials/twitter.png', url: 'https://twitter.com/HibaFreelance' },
-      { src: '/socials/discord.png', url: 'https://discord.gg/zcmfjBK7xf' }
+      { src: '/socials/youtube.webp', url: 'https://www.youtube.com/channel/UCE8E72Nexrqv3IAYdsCj5MQ' },
+      { src: '/socials/instagram.webp', url: 'https://www.instagram.com/hibafreelance/' },
+      { src: '/socials/tiktok.webp', url: 'https://www.tiktok.com/@hibafreelance' },
+      { src: '/socials/twitter.webp', url: 'https://twitter.com/HibaFreelance' },
+      { src: '/socials/discord.webp', url: 'https://discord.gg/zcmfjBK7xf' }
     ],
   };

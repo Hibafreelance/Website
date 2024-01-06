@@ -10,17 +10,19 @@ const Footer = () => {
       <div className="padding-container max-container flex w-full flex-col gap-5">
         <div className="flex flex-col items-start justify-center gap-[10%] md:flex-row">
           <Link href="/" className="mb-10">
-            <Image src="/logo.png" alt="logo" width={74} height={30}/>
+            <Image src="/logo.webp" alt="logo" width={0} height={0} style={{ width: '75px', height: 'auto' }}/>
           </Link>
 
           <div className='flex flex-wrap gap-10 sm:justify-between md:flex-1'>
             {FOOTER_LINKS.map((columns,a) => (
               <FooterColumn key={a} title={columns.title}>
-                <ul className="regular-14 flex flex-col gap-4 text-gray-30">
+                <ul className="regular-14 flex flex-col gap-4 text-gray-500">
                   {columns.links.map((link) => (
+                    <li key={link.text}>
                     <Link href={link.url} key={link.text}>
                       {link.text}
                     </Link>
+                    </li>
                   ))}
                 </ul>
               </FooterColumn>
@@ -49,11 +51,15 @@ const Footer = () => {
             <div className="flex flex-col gap-5">
               <FooterColumn title={SOCIALS.title}>
                 <ul className="regular-14 flex gap-4 text-gray-30">
+                
                   {SOCIALS.links.map((link) => (
+                    <li key={link.src}>
                     <Link href={link.url} key={link.src} target='_blank'>
-                      <Image src={link.src} alt="logo" width={32} height={32} />
+                      <Image src={link.src} alt="logo" width={0} height={0} style={{ width: '32px', height: 'auto' }}/>
                     </Link>
+                                      </li>
                   ))}
+
                 </ul>
               </FooterColumn>
             </div>
@@ -61,7 +67,7 @@ const Footer = () => {
         </div>
 
         <div className="border bg-gray-20" />
-        <p className="regular-14 w-full text-center text-gray-30 mb-5">2024 Hiba Company | All rights reserved</p>
+        <p className="regular-14 w-full text-center text-gray-500 mb-5">2024 Hiba Company | All rights reserved</p>
       </div>
     </footer>
   )
@@ -75,7 +81,7 @@ type FooterColumnProps = {
 const FooterColumn = ({ title, children }: FooterColumnProps) => {
   return (
     <div className="flex flex-col gap-5">
-      <h4 className="bold-18 whitespace-nowrap">{title}</h4>
+      <h3 className="bold-18 whitespace-nowrap">{title}</h3>
       {children}
     </div>
   )
