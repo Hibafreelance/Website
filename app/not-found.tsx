@@ -11,7 +11,7 @@ export default function NotFound() {
         <p className="text-gray-600 mb-4">
           Return to the{" "}
           <Link href="/" className="text-blue-500 font-bold hover:underline">
-Home page
+Home page.
           </Link>
         </p>
       </div>
