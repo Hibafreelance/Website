@@ -29,7 +29,7 @@ const ServicesPage = () => {
             <p className="text-gray-600 mb-2 h-16 font-bold">
               <del className="text-red-500">$75</del> $60 (25% off)
             </p>
-            <button className="bg-blue-500 text-white p-2 rounded-md hover:bg-blue-600 mt-auto">Buy</button>
+            <button className="bg-blue-500 text-white p-2 rounded-md hover:bg-blue-600 mt-auto"><a href="https://www.fiverr.com/mohamed_eshop/create-a-brand-identity-and-logo-for-you">Buy on Fiverr</a></button>
           </div>
 
           {/* Pricing Card 2 */}
@@ -44,9 +44,9 @@ const ServicesPage = () => {
               <li>- SEO Optimization</li>
             </ul>
             <p className="text-gray-600 mb-2 h-16 font-bold">
-              <del className="text-red-500">$199</del> $99 (50% off)
+              <del className="text-red-500">$159</del> $80 (50% off)
             </p>
-            <button className="bg-blue-500 text-white p-2 rounded-md hover:bg-blue-600 mt-auto">Buy</button>
+            <button className="bg-blue-500 text-white p-2 rounded-md hover:bg-blue-600 mt-auto"><a href="https://www.fiverr.com/mohamed_eshop/boost-your-online-presence-professional-salla-or-zid-store-setup-with-seo-css">Buy on Fiverr</a></button>
           </div>
 
           {/* Pricing Card 3 */}
@@ -61,14 +61,14 @@ const ServicesPage = () => {
             <p className="text-gray-600 mb-2 h-16 font-bold">
               <del className="text-red-500">$399</del> $199 (50% off)
             </p>
-            <button className="bg-blue-500 text-white p-2 rounded-md hover:bg-blue-600 mt-auto">Buy</button>
+            <button className="bg-blue-500 text-white p-2 rounded-md hover:bg-blue-600 mt-auto"><a href="https://wa.me/+31637836657">Talk with us</a></button>
           </div>
         </div>
 
         {/* Contact Us Button */}
         <a href="https://wa.me/+31637836657" target='_blank'>
         <button className="bg-green-500 text-white p-2 px-10 rounded-md hover:bg-green-600" >
-          Contact Us
+          Contact us on Whatsapp
         </button></a>
 
       </div>

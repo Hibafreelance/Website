@@ -9,6 +9,13 @@ export const metadata: Metadata = {
 
 const projects = [
   {
+    title: 'Ishtrie',
+    description: 'Multi product store.',
+    technologies: [<IconBrandWordpress />,<IconBrandAdobe />,<IconFileTypeCss />,<IconSeo />], // Use icons here
+    screenshot: '/projectimgs/ishtrie.webp', 
+    link: 'https://goishtrie.com/',
+  },
+  {
     title: 'Create Paris',
     description: 'Store for a unique fragrance brand.',
     technologies: [<IconBrandAdobe />,<IconFileTypeCss />,<IconShoppingCart />,<IconLanguageHiragana />], // Use icons here
@@ -16,18 +23,25 @@ const projects = [
     link: 'https://createparis.com/',
   },
   {
-    title: 'Al-Qataf',
-    description: 'Law Firm website.',
+    title: 'Clara',
+    description: 'Beauty, cosmetic & personal care.',
     technologies: [<IconBrandWordpress />,<IconBrandAdobe />,<IconFileTypeCss />,<IconSeo />], // Use icons here
-    screenshot: '/projectimgs/qataf.webp', 
-    link: 'https://alqattaf.com/',
+    screenshot: '/projectimgs/clara.webp', 
+    link: 'https://clarainuae.com/',
+  },  
+  {
+    title: "Pro Tec Agency",
+    description: "Travel Agency that help people plan their trips.",
+    technologies: [<IconBrandWordpress />,<IconFileTypeCss />,<IconSeo />,<IconMessage />], // Use icons here
+    screenshot: '/projectimgs/protec.webp', 
+    link: 'https://protecagency.com/',
   },
   {
-    title: 'Dharma Trading',
-    description: 'Bulk supplier of food and beverages.',
+    title: 'Service Cards',
+    description: 'Gift cards and games shop.',
     technologies: [<IconBrandShopee />,<IconBrandJavascript />,<IconFileTypeCss />,<IconBrandStripe />], // Use icons here
-    screenshot: '/projectimgs/dharma.webp', 
-    link: 'https://dharmatradinguae.com/',
+    screenshot: '/projectimgs/cards.webp', 
+    link: 'https://servicecardsa.com/',
   },
   {
     title: 'Smart Drive Solutions',
@@ -35,6 +49,13 @@ const projects = [
     technologies: [<IconBrandAdobe />,<IconFileTypeCss />,<IconShoppingCart />,<IconSeo />], // Use icons here
     screenshot: '/projectimgs/sdsarabia.webp', 
     link: 'https://sdsarabia.com/',
+  },
+  {
+    title: 'Cayan Packaging',
+    description: 'Multiple packaging items.',
+    technologies: [<IconBrandWordpress />,<IconBrandAdobe />,<IconFileTypeCss />,<IconSeo />], // Use icons here
+    screenshot: '/projectimgs/cyan.webp', 
+    link: 'https://cayanpack.sa/',
   },
   {
     title: "Fatha'A",
@@ -65,33 +86,12 @@ const projects = [
     link: 'https://outshine0.com/',
   },
   {
-    title: "Pro Tec",
-    description: "Travel Agency that help people plan their trips.",
-    technologies: [<IconBrandWordpress />,<IconFileTypeCss />,<IconSeo />,<IconMessage />], // Use icons here
-    screenshot: '/projectimgs/protec.webp', 
-    link: 'https://protecagency.com/',
-  },
-  {
-    title: "The Mind Weapon",
-    description: "PUBG Esport team.",
-    technologies: [<IconBrandWordpress />,<IconFileTypeCss />,<IconSeo />,<IconShoppingCart />], // Use icons here
-    screenshot: '/projectimgs/tmw.webp', 
-    link: 'https://themindweapon.com/',
-  },
-  {
     title: "Vorvil",
     description: "Clothing brand for young people.",
     technologies: [<IconBrandAdobe />,<IconFileTypeCss />,<IconSeo />,<IconShoppingCart />], // Use icons here
     screenshot: '/projectimgs/vorvil.webp', 
     link: 'https://vorvil.com/',
-  },
-  {
-    title: "NoodyWorld",
-    description: "Beauty products shop.",
-    technologies: [<IconBrandAdobe />,<IconFileTypeCss />,<IconSeo />,<IconShoppingCart />], // Use icons here
-    screenshot: '/projectimgs/noody.webp', 
-    link: 'https://noodyworld.com/',
-  },
+  }
   
   
   // Add more projects as needed
